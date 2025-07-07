@@ -1,0 +1,57 @@
+data = {
+  "accounts": {
+    "account{0}": "0x8f4F8486f933B86Da734b41a7BCC1d4c8439354E"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1750828617405,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xf4e7795bd0b61b28f037653154718a1ea2bb428650c856ff44970c77a2bb505b",
+        "contractName": "LogStorage",
+        "bytecode": "6080604052348015600e57..."  # truncated for readability
+        ,
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    # Add other transactions similarly or paste the full block if needed
+  ],
+  "abis": {
+    "0xf4e7795bd0b61b28f037653154718a1ea2bb428650c856ff44970c77a2bb505b": [
+      {
+        "inputs": [{"internalType": "string", "name": "cid", "type": "string"}],
+        "name": "storeLogCID",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getAllCIDs",
+        "outputs": [{"internalType": "string[]", "name": "", "type": "string[]"}],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+        "name": "logCIDs",
+        "outputs": [{"internalType": "string", "name": "", "type": "string"}],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+    # Add the second ABI as needed
+  }
+}
+
+# 2. Save it as a .json file
+with open("blockchain_logs.json", "w") as json_file:
+    json.dump(data, json_file, indent=4)
+
+print("JSON file saved as 'blockchain_logs.json'")
