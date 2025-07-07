@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **LogPin** is a Python-based pipeline that:
 
@@ -15,13 +15,13 @@
 
 This project is designed for research and practical applications where logs need to be:
 
-* ✅ Securely stored
-* ✅ Tamper-proof
-* ✅ Decentralized and recoverable
+* Securely stored
+* Tamper-proof
+* Decentralized and recoverable
 
 ---
 
-## ✨ Features
+##  Features
 
 * **Encryption-first**: Logs are encrypted before upload for data privacy.
 * **Decentralized storage**: Uses IPFS to store logs permanently.
@@ -30,7 +30,7 @@ This project is designed for research and practical applications where logs need
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Python** (processing, encryption, IPFS upload, blockchain interaction)
 * **IPFS** (via Pinata)
@@ -39,7 +39,7 @@ This project is designed for research and practical applications where logs need
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 LogPin/
@@ -53,22 +53,22 @@ LogPin/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-1️⃣ **Clone the repository:**
+1 **Clone the repository:**
 
 ```bash
 git clone https://github.com/yourusername/LogPin.git
 cd LogPin
 ```
 
-2️⃣ **Install dependencies:**
+2 **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3️⃣ **Set up environment variables:**
+3 **Set up environment variables:**
 
 Create a `.env` file:
 
@@ -79,7 +79,7 @@ BLOCKCHAIN_RPC_URL=https://sepolia.infura.io/v3/your_project_id
 PRIVATE_KEY=your_wallet_private_key
 ```
 
-4️⃣ **Run the pipeline:**
+4 **Run the pipeline:**
 
 ```bash
 python log_encryptor.py
