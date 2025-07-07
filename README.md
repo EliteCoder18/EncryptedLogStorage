@@ -89,7 +89,7 @@ python blockchain_pusher.py
 
 ---
 
-## 💡 Use Cases
+## Use Cases
 
 * Secure ransomware-resistant log storage
 * Forensics-ready system/application log archiving
@@ -98,19 +98,19 @@ python blockchain_pusher.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or pull requests to add features, fix bugs, or improve documentation.
 
 ---
 
-## 📜 License
+## License
 
 MIT License. See `LICENSE` for details.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 * [IPFS](https://ipfs.io/)
 * [Pinata](https://pinata.cloud/)
